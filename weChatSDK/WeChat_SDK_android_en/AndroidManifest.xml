@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tencent.mm.sdk"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <!-- declare your callback permission so that your message WON'T be captured by other app -->
+    <!--
+    <permission
+        android:name="[package_name].permission.MMOAUTH_CALLBACK"
+        android:protectedLevel="normal" />
+    <permission
+        android:name="[package_name].permission.MM_MESSAGE"
+        android:protectedLevel="normal" />
+        
+    <uses-permission android:name="[package_name].permission.MMOAUTH_CALLBACK" />
+    <uses-permission android:name="[package_name].permission.MM_MESSAGE" />
+    -->
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="7" />
+
+    <application>
+
+        <!-- android copy following to your AndroidManifest.xml -->
+        <!--
+        <receiver
+        	android:name="com.tencent.mm.sdk.plugin.MMPluginOAuth$Receiver" 
+        	android:permission="com.tencent.mm.oauth.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.tencent.mm.sdk.plugin.Intent.ACTION_RESPONSE" />
+            </intent-filter>
+        </receiver>
+        
+        <receiver
+            android:name="com.tencent.mm.sdk.channel.MMessage$Receiver"
+            android:permission="com.tencent.mm.plugin.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.tencent.mm.sdk.channel.Intent.ACTION_MESSAGE" />
+            </intent-filter>
+        </receiver>
+        -->
+    </application>
+
+</manifest>
