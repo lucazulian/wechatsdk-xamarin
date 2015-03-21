@@ -181,3 +181,10 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
+
+# Others
+*.userprefs
+*.Designer.cs
+*.designer.cs
+*.DS_Store
+*Thumbs.db
