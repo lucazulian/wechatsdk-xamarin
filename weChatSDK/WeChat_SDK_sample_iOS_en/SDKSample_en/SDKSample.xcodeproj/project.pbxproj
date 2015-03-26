@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78D697B01546ECD800B5365E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D697AF1546ECD800B5365E /* Icon.png */; };
+		78D697B31546ECE400B5365E /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D697B21546ECE400B5365E /* Icon@2x.png */; };
+		A44131DD173A8E2200448082 /* res7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A44131DC173A8E2200448082 /* res7.jpg */; };
+		A4425FA81745E9510093C3AE /* ML.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A4425FA71745E9510093C3AE /* ML.pdf */; };
+		A49C6BBC1715D55B00DBC2AE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A49C6BB91715D55B00DBC2AE /* Default-568h@2x.png */; };
+		A49C6BBD1715D55B00DBC2AE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A49C6BBA1715D55B00DBC2AE /* Default.png */; };
+		A49C6BBE1715D55B00DBC2AE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A49C6BBB1715D55B00DBC2AE /* Default@2x.png */; };
+		A4ED0CED1719CF2E00300C37 /* res2.png in Resources */ = {isa = PBXBuildFile; fileRef = A4ED0CEC1719CF2E00300C37 /* res2.png */; };
+		A4ED0CF11719D2D300300C37 /* res5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4ED0CEF1719D2D300300C37 /* res5.jpg */; };
+		A4ED0CF21719D2D300300C37 /* res5thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = A4ED0CF01719D2D300300C37 /* res5thumb.png */; };
+		A4FCBD4A174684A00009AFEB /* CoreData.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A4FCBD49174684A00009AFEB /* CoreData.pdf */; };
+		C629F8AE15CB7A9D0000F777 /* lindan.gif in Resources */ = {isa = PBXBuildFile; fileRef = C629F8AD15CB7A9D0000F777 /* lindan.gif */; };
+		C629F8DD15CBF8E00000F777 /* res2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C629F8DC15CBF8E00000F777 /* res2.jpg */; };
+		C629F93715CFE42F0000F777 /* res6thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = C629F93615CFE42E0000F777 /* res6thumb.png */; };
+		C629F93915CFE4C50000F777 /* res1thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = C629F93815CFE4C50000F777 /* res1thumb.png */; };
+		C6C01DC61532D32A00DF6A71 /* RespForWeChatViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C6C01DC51532D32A00DF6A71 /* RespForWeChatViewController.mm */; };
+		C6DA29AB15C01537000DCA44 /* res6.gif in Resources */ = {isa = PBXBuildFile; fileRef = C6DA29AA15C01537000DCA44 /* res6.gif */; };
+		C6E11F4F15333898009E8803 /* micro_messenger.png in Resources */ = {isa = PBXBuildFile; fileRef = C6E11F4E15333898009E8803 /* micro_messenger.png */; };
+		D11A782B17F18C7F009500F7 /* Test.xml in Resources */ = {isa = PBXBuildFile; fileRef = D11A782A17F18C7F009500F7 /* Test.xml */; };
+		D165C8AE1811148C00536F4D /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D165C8AD1811148C00536F4D /* libWeChatSDK.a */; };
+		DB6359FC17767A46006060F8 /* cover_swbl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB6359FB17767A46006060F8 /* cover_swbl.jpg */; };
+		DB6359FF177686F7006060F8 /* SendMsgToWechatMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6359FE177686F7006060F8 /* SendMsgToWechatMgr.m */; };
+		DB8F2BB91777E85A0052833E /* wechatMsg_cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB8F2BB81777E85A0052833E /* wechatMsg_cat.jpg */; };
+		DB8F2BBB1777F4A30052833E /* Engadget.png in Resources */ = {isa = PBXBuildFile; fileRef = DB8F2BBA1777F4A30052833E /* Engadget.png */; };
+		F050299E1505F71800C3E5E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F050299D1505F71800C3E5E5 /* UIKit.framework */; };
+		F05029A01505F71800C3E5E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F050299F1505F71800C3E5E5 /* Foundation.framework */; };
+		F05029A21505F71800C3E5E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F05029A11505F71800C3E5E5 /* CoreGraphics.framework */; };
+		F0502A331505FE2300C3E5E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0502A301505FE2300C3E5E5 /* main.m */; };
+		F0502A391505FE3D00C3E5E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0502A361505FE3D00C3E5E5 /* AppDelegate.m */; };
+		F0502A3A1505FE3D00C3E5E5 /* SendMsgToWeChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0502A381505FE3D00C3E5E5 /* SendMsgToWeChatViewController.m */; };
+		F0502A411506011100C3E5E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0502A3B1506011100C3E5E5 /* InfoPlist.strings */; };
+		F0502A421506011100C3E5E5 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0502A3D1506011100C3E5E5 /* ViewController_iPad.xib */; };
+		F0502A431506011100C3E5E5 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0502A3F1506011100C3E5E5 /* ViewController_iPhone.xib */; };
+		F0A815231514726A00F72842 /* res1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0A8151F1514726A00F72842 /* res1.jpg */; };
+		F0A815251514726A00F72842 /* res3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0A815211514726A00F72842 /* res3.jpg */; };
+		F0A815261514726A00F72842 /* res4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0A815221514726A00F72842 /* res4.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		78D697AF1546ECD800B5365E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		78D697B21546ECE400B5365E /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		A44131DC173A8E2200448082 /* res7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = res7.jpg; sourceTree = SOURCE_ROOT; };
+		A4425FA71745E9510093C3AE /* ML.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ML.pdf; sourceTree = SOURCE_ROOT; };
+		A49C6BB91715D55B00DBC2AE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A49C6BBA1715D55B00DBC2AE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A49C6BBB1715D55B00DBC2AE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A4ED0CEC1719CF2E00300C37 /* res2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = res2.png; sourceTree = SOURCE_ROOT; };
+		A4ED0CEF1719D2D300300C37 /* res5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = res5.jpg; sourceTree = SOURCE_ROOT; };
+		A4ED0CF01719D2D300300C37 /* res5thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = res5thumb.png; sourceTree = SOURCE_ROOT; };
+		A4FCBD49174684A00009AFEB /* CoreData.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = CoreData.pdf; sourceTree = SOURCE_ROOT; };
+		C629F8AD15CB7A9D0000F777 /* lindan.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = lindan.gif; sourceTree = SOURCE_ROOT; };
+		C629F8DC15CBF8E00000F777 /* res2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = res2.jpg; sourceTree = SOURCE_ROOT; };
+		C629F93615CFE42E0000F777 /* res6thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = res6thumb.png; sourceTree = SOURCE_ROOT; };
+		C629F93815CFE4C50000F777 /* res1thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = res1thumb.png; sourceTree = SOURCE_ROOT; };
+		C6C01DC41532D32A00DF6A71 /* RespForWeChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RespForWeChatViewController.h; sourceTree = SOURCE_ROOT; };
+		C6C01DC51532D32A00DF6A71 /* RespForWeChatViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RespForWeChatViewController.mm; sourceTree = SOURCE_ROOT; };
+		C6DA29AA15C01537000DCA44 /* res6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = res6.gif; sourceTree = SOURCE_ROOT; };
+		C6E11F4E15333898009E8803 /* micro_messenger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = micro_messenger.png; sourceTree = "<group>"; };
+		D11A782A17F18C7F009500F7 /* Test.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Test.xml; sourceTree = SOURCE_ROOT; };
+		D165C8AD1811148C00536F4D /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		DB6359FB17767A46006060F8 /* cover_swbl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover_swbl.jpg; sourceTree = SOURCE_ROOT; };
+		DB6359FD177686F7006060F8 /* SendMsgToWechatMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendMsgToWechatMgr.h; sourceTree = SOURCE_ROOT; };
+		DB6359FE177686F7006060F8 /* SendMsgToWechatMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendMsgToWechatMgr.m; sourceTree = SOURCE_ROOT; };
+		DB8F2BB81777E85A0052833E /* wechatMsg_cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wechatMsg_cat.jpg; sourceTree = SOURCE_ROOT; };
+		DB8F2BBA1777F4A30052833E /* Engadget.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Engadget.png; sourceTree = SOURCE_ROOT; };
+		F05029991505F71700C3E5E5 /* SDKSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDKSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F050299D1505F71800C3E5E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F050299F1505F71800C3E5E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F05029A11505F71800C3E5E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F0502A261505FD6A00C3E5E5 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		F0502A271505FD6A00C3E5E5 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		F0502A301505FE2300C3E5E5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+		F0502A311505FE2300C3E5E5 /* SDKSample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SDKSample-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F0502A321505FE2300C3E5E5 /* SDKSample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDKSample-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		F0502A351505FE3D00C3E5E5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		F0502A361505FE3D00C3E5E5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		F0502A371505FE3D00C3E5E5 /* SendMsgToWeChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendMsgToWeChatViewController.h; sourceTree = SOURCE_ROOT; };
+		F0502A381505FE3D00C3E5E5 /* SendMsgToWeChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendMsgToWeChatViewController.m; sourceTree = SOURCE_ROOT; };
+		F0502A3C1506011100C3E5E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		F0502A3E1506011100C3E5E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = SOURCE_ROOT; };
+		F0502A401506011100C3E5E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = SOURCE_ROOT; };
+		F0A8151F1514726A00F72842 /* res1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = res1.jpg; sourceTree = SOURCE_ROOT; };
+		F0A815211514726A00F72842 /* res3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = res3.jpg; sourceTree = SOURCE_ROOT; };
+		F0A815221514726A00F72842 /* res4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = res4.jpg; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F05029961505F71700C3E5E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F050299E1505F71800C3E5E5 /* UIKit.framework in Frameworks */,
+				F05029A01505F71800C3E5E5 /* Foundation.framework in Frameworks */,
+				D165C8AE1811148C00536F4D /* libWeChatSDK.a in Frameworks */,
+				F05029A21505F71800C3E5E5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6E11F4C15333879009E8803 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				78D697B21546ECE400B5365E /* Icon@2x.png */,
+				A49C6BB91715D55B00DBC2AE /* Default-568h@2x.png */,
+				A49C6BBA1715D55B00DBC2AE /* Default.png */,
+				A49C6BBB1715D55B00DBC2AE /* Default@2x.png */,
+				78D697AF1546ECD800B5365E /* Icon.png */,
+				C6E11F4E15333898009E8803 /* micro_messenger.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F050298E1505F71700C3E5E5 = {
+			isa = PBXGroup;
+			children = (
+				C6E11F4C15333879009E8803 /* Resources */,
+				F0502A241505FD6A00C3E5E5 /* SDKExport */,
+				F05029A31505F71800C3E5E5 /* SDKSample */,
+				F050299C1505F71800C3E5E5 /* Frameworks */,
+				F050299A1505F71700C3E5E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F050299A1505F71700C3E5E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F05029991505F71700C3E5E5 /* SDKSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F050299C1505F71800C3E5E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F050299D1505F71800C3E5E5 /* UIKit.framework */,
+				F050299F1505F71800C3E5E5 /* Foundation.framework */,
+				F05029A11505F71800C3E5E5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F05029A31505F71800C3E5E5 /* SDKSample */ = {
+			isa = PBXGroup;
+			children = (
+				F0502A351505FE3D00C3E5E5 /* AppDelegate.h */,
+				F0502A361505FE3D00C3E5E5 /* AppDelegate.m */,
+				DB6359FD177686F7006060F8 /* SendMsgToWechatMgr.h */,
+				DB6359FE177686F7006060F8 /* SendMsgToWechatMgr.m */,
+				F0502A371505FE3D00C3E5E5 /* SendMsgToWeChatViewController.h */,
+				F0502A381505FE3D00C3E5E5 /* SendMsgToWeChatViewController.m */,
+				C6C01DC41532D32A00DF6A71 /* RespForWeChatViewController.h */,
+				C6C01DC51532D32A00DF6A71 /* RespForWeChatViewController.mm */,
+				F05029A41505F71800C3E5E5 /* Supporting Files */,
+			);
+			path = SDKSample;
+			sourceTree = "<group>";
+		};
+		F05029A41505F71800C3E5E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D11A782A17F18C7F009500F7 /* Test.xml */,
+				DB8F2BBA1777F4A30052833E /* Engadget.png */,
+				DB8F2BB81777E85A0052833E /* wechatMsg_cat.jpg */,
+				DB6359FB17767A46006060F8 /* cover_swbl.jpg */,
+				A4FCBD49174684A00009AFEB /* CoreData.pdf */,
+				A4425FA71745E9510093C3AE /* ML.pdf */,
+				A44131DC173A8E2200448082 /* res7.jpg */,
+				F0A8151F1514726A00F72842 /* res1.jpg */,
+				C629F93815CFE4C50000F777 /* res1thumb.png */,
+				A4ED0CEC1719CF2E00300C37 /* res2.png */,
+				C629F8DC15CBF8E00000F777 /* res2.jpg */,
+				F0A815211514726A00F72842 /* res3.jpg */,
+				F0A815221514726A00F72842 /* res4.jpg */,
+				A4ED0CEF1719D2D300300C37 /* res5.jpg */,
+				A4ED0CF01719D2D300300C37 /* res5thumb.png */,
+				C629F93615CFE42E0000F777 /* res6thumb.png */,
+				C6DA29AA15C01537000DCA44 /* res6.gif */,
+				C629F8AD15CB7A9D0000F777 /* lindan.gif */,
+				F0502A3B1506011100C3E5E5 /* InfoPlist.strings */,
+				F0502A3D1506011100C3E5E5 /* ViewController_iPad.xib */,
+				F0502A3F1506011100C3E5E5 /* ViewController_iPhone.xib */,
+				F0502A301505FE2300C3E5E5 /* main.m */,
+				F0502A311505FE2300C3E5E5 /* SDKSample-Info.plist */,
+				F0502A321505FE2300C3E5E5 /* SDKSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0502A241505FD6A00C3E5E5 /* SDKExport */ = {
+			isa = PBXGroup;
+			children = (
+				D165C8AD1811148C00536F4D /* libWeChatSDK.a */,
+				F0502A261505FD6A00C3E5E5 /* WXApi.h */,
+				F0502A271505FD6A00C3E5E5 /* WXApiObject.h */,
+			);
+			name = SDKExport;
+			path = ../SDKExport;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F05029981505F71700C3E5E5 /* SDKSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F05029BA1505F71800C3E5E5 /* Build configuration list for PBXNativeTarget "SDKSample" */;
+			buildPhases = (
+				F05029951505F71700C3E5E5 /* Sources */,
+				F05029961505F71700C3E5E5 /* Frameworks */,
+				F05029971505F71700C3E5E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDKSample;
+			productName = SDKSample;
+			productReference = F05029991505F71700C3E5E5 /* SDKSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F05029901505F71700C3E5E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F05029931505F71700C3E5E5 /* Build configuration list for PBXProject "SDKSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F050298E1505F71700C3E5E5;
+			productRefGroup = F050299A1505F71700C3E5E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F05029981505F71700C3E5E5 /* SDKSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F05029971505F71700C3E5E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0502A411506011100C3E5E5 /* InfoPlist.strings in Resources */,
+				F0502A421506011100C3E5E5 /* ViewController_iPad.xib in Resources */,
+				F0502A431506011100C3E5E5 /* ViewController_iPhone.xib in Resources */,
+				F0A815231514726A00F72842 /* res1.jpg in Resources */,
+				F0A815251514726A00F72842 /* res3.jpg in Resources */,
+				F0A815261514726A00F72842 /* res4.jpg in Resources */,
+				C6E11F4F15333898009E8803 /* micro_messenger.png in Resources */,
+				78D697B01546ECD800B5365E /* Icon.png in Resources */,
+				78D697B31546ECE400B5365E /* Icon@2x.png in Resources */,
+				C6DA29AB15C01537000DCA44 /* res6.gif in Resources */,
+				C629F8AE15CB7A9D0000F777 /* lindan.gif in Resources */,
+				C629F8DD15CBF8E00000F777 /* res2.jpg in Resources */,
+				C629F93715CFE42F0000F777 /* res6thumb.png in Resources */,
+				C629F93915CFE4C50000F777 /* res1thumb.png in Resources */,
+				A49C6BBC1715D55B00DBC2AE /* Default-568h@2x.png in Resources */,
+				A49C6BBD1715D55B00DBC2AE /* Default.png in Resources */,
+				A49C6BBE1715D55B00DBC2AE /* Default@2x.png in Resources */,
+				A4ED0CED1719CF2E00300C37 /* res2.png in Resources */,
+				A4ED0CF11719D2D300300C37 /* res5.jpg in Resources */,
+				A4ED0CF21719D2D300300C37 /* res5thumb.png in Resources */,
+				A44131DD173A8E2200448082 /* res7.jpg in Resources */,
+				A4425FA81745E9510093C3AE /* ML.pdf in Resources */,
+				A4FCBD4A174684A00009AFEB /* CoreData.pdf in Resources */,
+				DB6359FC17767A46006060F8 /* cover_swbl.jpg in Resources */,
+				DB8F2BB91777E85A0052833E /* wechatMsg_cat.jpg in Resources */,
+				DB8F2BBB1777F4A30052833E /* Engadget.png in Resources */,
+				D11A782B17F18C7F009500F7 /* Test.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F05029951505F71700C3E5E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0502A331505FE2300C3E5E5 /* main.m in Sources */,
+				F0502A391505FE3D00C3E5E5 /* AppDelegate.m in Sources */,
+				F0502A3A1505FE3D00C3E5E5 /* SendMsgToWeChatViewController.m in Sources */,
+				C6C01DC61532D32A00DF6A71 /* RespForWeChatViewController.mm in Sources */,
+				DB6359FF177686F7006060F8 /* SendMsgToWechatMgr.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F0502A3B1506011100C3E5E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0502A3C1506011100C3E5E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F0502A3D1506011100C3E5E5 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0502A3E1506011100C3E5E5 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		F0502A3F1506011100C3E5E5 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0502A401506011100C3E5E5 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F05029B81505F71800C3E5E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Debug;
+		};
+		F05029B91505F71800C3E5E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Release;
+		};
+		F05029BB1505F71800C3E5E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDKSample-Prefix.pch";
+				INFOPLIST_FILE = "SDKSample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\\\"$(SRCROOT)/../SDKExport\\\"",
+					/Users/gracoli/Desktop/WeChat_SDK_sample_iOS_en/SDKExport,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F05029BC1505F71800C3E5E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDKSample-Prefix.pch";
+				INFOPLIST_FILE = "SDKSample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\\\"$(SRCROOT)/../SDKExport\\\"",
+					/Users/gracoli/Desktop/WeChat_SDK_sample_iOS_en/SDKExport,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F05029931505F71700C3E5E5 /* Build configuration list for PBXProject "SDKSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F05029B81505F71800C3E5E5 /* Debug */,
+				F05029B91505F71800C3E5E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F05029BA1505F71800C3E5E5 /* Build configuration list for PBXNativeTarget "SDKSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F05029BB1505F71800C3E5E5 /* Debug */,
+				F05029BC1505F71800C3E5E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F05029901505F71700C3E5E5 /* Project object */;
+}
