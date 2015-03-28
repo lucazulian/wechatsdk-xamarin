@@ -3,12 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "androidWeChatBinding", "androidWeChatBinding\androidWeChatBinding.csproj", "{DB2CFE99-0BBD-4F8D-942F-6ED878117A64}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "androidWeChatExample", "androidWeChatExample\androidWeChatExample.csproj", "{25967326-F7D9-4CD9-A7D4-D1ED73B47704}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25967326-F7D9-4CD9-A7D4-D1ED73B47704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25967326-F7D9-4CD9-A7D4-D1ED73B47704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25967326-F7D9-4CD9-A7D4-D1ED73B47704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25967326-F7D9-4CD9-A7D4-D1ED73B47704}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DB2CFE99-0BBD-4F8D-942F-6ED878117A64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DB2CFE99-0BBD-4F8D-942F-6ED878117A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB2CFE99-0BBD-4F8D-942F-6ED878117A64}.Release|Any CPU.ActiveCfg = Release|Any CPU
