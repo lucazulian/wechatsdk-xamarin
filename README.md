@@ -1,6 +1,6 @@
 # wechatsdk-xamarin
 
-Xamarin.Android and Xamarin.iOS WeChat SDK Binding
+Xamarin.Android and Xamarin.iOS WeChat SDK Binding - In progress
 =======
 
 This the Xamarin.Android and Xamarin.iOS Binding for Wechat SDK.

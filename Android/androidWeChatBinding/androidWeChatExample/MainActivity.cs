@@ -51,8 +51,7 @@ namespace androidWeChatExample
 					bool res = MainActivity.wxApi.SendReq(req);
 
 					if(res){
-						Console.WriteLine("successfully sent message")
-
+						Console.WriteLine("successfully sent message");
 					}
 
 				}
