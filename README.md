@@ -1,9 +1,7 @@
-# wechatsdk-xamarin
-
-Xamarin.Android and Xamarin.iOS WeChat SDK Binding - In progress
+Xamarin.Android and Xamarin.iOS WeChat SDK binding
 =======
 
-This the Xamarin.Android and Xamarin.iOS Binding for Wechat SDK.
+This the Xamarin.Android and Xamarin.iOS binding for Wechat SDK.
 
 Please replace the APP_ID and Keystore respectively use your own one.
 
